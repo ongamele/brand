@@ -1,0 +1,60 @@
+.home-nav {
+  background-color: #70259b !important;
+  width: 100% !important;
+}
+
+.collapse-nav {
+  justify-content: center;
+}
+
+.collapse-nav2 {
+  justify-content: right;
+}
+.lets-talk-button {
+  float: right !important;
+  margin-right: 0px !important;
+  align-self: right !important;
+  align-self: flex-end;
+}
+
+.lets-talk-button-mobile {
+  float: left !important;
+  margin-right: 0px !important;
+  align-self: left !important;
+  background-color: #ffffff !important;
+  color: #70259b;
+  border-radius: 20px;
+}
+
+.collapse-nav {
+  background-color: #70259b !important;
+  color: #ffffff;
+}
+
+.sidebar-collapse .navbar-collapse:before {
+  background: #70259b;
+  background: linear-gradient(#70259b, #2c2c2c 80%);
+}
+
+.navbar-translate,
+.nav-container {
+  background-color: #70259b !important;
+}
+
+@media (max-width: 768px) {
+  .lets-talk-button {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .lets-talk-button-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-nav {
+    margin-right: -10px !important;
+  }
+}

@@ -1,0 +1,22 @@
+.page-header {
+  height: 100% !important;
+  font-family: "Inter", sans-serif;
+}
+.header-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.lets-talk-button {
+  background-color: #ffffff;
+  color: #70259b;
+  width: auto;
+  border-radius: 30px;
+}
+
+.view-projects-button {
+  border-radius: 20px;
+  background-color: #70259b;
+}

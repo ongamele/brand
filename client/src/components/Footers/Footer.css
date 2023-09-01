@@ -1,0 +1,39 @@
+.footer {
+  background-color: #430964;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.section-heading {
+  position: relative;
+  display: inline-block;
+}
+
+.section-heading::before {
+  content: "";
+  position: absolute;
+  left: -24px;
+  top: 40%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 2px;
+  background-color: #d100c9;
+}
+
+.top-section {
+  display: flex;
+}
+
+.footer-header {
+  float: left;
+  width: 300;
+  font-weight: bold;
+}
+
+.address {
+  float: right;
+  margin-left: 46%;
+  margin-right: 4px;
+  width: 200px;
+  font-size: 14px;
+}
